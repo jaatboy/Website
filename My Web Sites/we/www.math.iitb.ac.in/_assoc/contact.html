@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(25.261951,82.992157),
+    zoom:14,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+  var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(25.261951,82.992157),
+      map: map,
+      title: 'IIT Bhu'
+  });
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+
+<!-- Mirrored from www.math.iitb.ac.in/~assoc/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Jul 2018 06:18:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="contact">
+	
+	<title>Contact us</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" width="290" height="60" alt="Progressus HTML5 template"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="index.html">Home</a></li>
+					<!--<li><a href="about.html">About</a></li>-->
+					<li><a href="mo/index.html">Olympiad</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Office Bearers <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+                                                        <li><a href="office18-19.html">Council 18-19 (Current)</a></li>
+							<li><a href="office17-18.html">Council 17-18</a></li>
+							<li><a href="office16-17.html">Council 16-17</a></li>
+							<li><a href="office15-16.html">Council 15-16</a></li>
+						</ul>
+					</li>
+                                        <li><a href="placements.html">Placements</a></li>
+					<!--<li><a href="events.html">Events</a></li>-->
+					<li class="active"><a href="contact.html">Contact</a></li>
+					<!--<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Important Links<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="http://www.math.iitb.ac.in/~assoc/info/tif.html">Talent Identification Form</a></li>
+							<li><a href="http://www.math.iitb.ac.in/~assoc/query.html">Suggestion and Complaints</a></li>
+						</ul>
+					</li>-->
+					<!--<li><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li>-->
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Other <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="elections/index.html">Elections</a></li>
+							<li><a href="obscure/index.html">Obscure Obvious</a></li>
+							<li><a href="handbook.html">Department Handbook</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container">
+
+		<ol class="breadcrumb">
+			<li><a href="index.html">Home</a></li>
+			<li class="active">Contact</li>
+		</ol>
+
+		<div class="row">
+			
+			<!-- Article main content -->
+			<article class="col-sm-9 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Contact us</h1>
+				</header>
+				
+				<p>
+					We’d love to hear from you. Interested in providing suggestions? Fill out the form below with your suggestion and we will get back to you as soon as we can. Please allow a couple days for our team to respond.
+				</p>
+				<br>
+					<form>
+						<div class="row">
+							<div class="col-sm-4">
+								<input class="form-control" type="text" placeholder="Name">
+							</div>
+							<div class="col-sm-4">
+								<input class="form-control" type="email" placeholder="Email" required>
+							</div>
+							<div class="col-sm-4">
+								<input class="form-control" type="text" placeholder="Phone">
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-sm-12">
+								<textarea placeholder="Type your message here..." class="form-control" rows="9" required></textarea>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-3 text-right">
+								<input class="btn btn-action" type="submit" value="Send message">
+							</div>
+						</div>
+					</form>
+
+			</article>
+			
+
+		</div>
+		<!-- /container -->
+
+	<style type="text/css">
+		div#googleMap { margin: 0 auto 0 auto; }
+	</style>
+
+	<div class="row">
+		<article class="col-sm-9 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Map of IIT Bhu</h1>
+				</header>
+		</article>
+	</div>
+	</div>
+	
+	<section class="container-full top-space">
+		<div align="center" id="googleMap" style="width:1300px;height:380px;"></div>
+	</section>
+	
+
+	
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+								<a href="mailto:#">mail@itbhu.ac.in</a><br>
+								<br>
+								Mathematics Society,
+								Department of Mathematics,
+								Indian Institute of Technology, Bhu
+								Varanasi - 231306
+							</p>	
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-3 widget">
+						<h3 class="widget-title">How to reach IIT Bhu</h3>
+						<div class="widget-body">
+							<p>IIT Bhu is located at Varanasi. One can travel by auto-rickshaws or taxis to reach IIT from the nearest stations.</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="index.html">Home</a> | 
+								<a href="mo2015/index.html">Olympiad</a> |
+                                                                <a href="placements.html">Placements</a> |
+								<a href="events.html">Events</a> |
+                                                                <a href="contact.html">Contact</a> |
+								<a href="office18-19.html">Office Bearers</a> 
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2015, Math Soc. Designed by Unknown</a> 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>	
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="../../netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+
+<!-- Mirrored from www.math.iitb.ac.in/~assoc/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Jul 2018 06:18:34 GMT -->
+</html>

@@ -1,0 +1,129 @@
+
+
+
+<html>
+
+<!-- Mirrored from www.math.iitb.ac.in/~assoc/mo/registration2017/online/result_2017.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Jul 2018 06:27:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+  <title>Result | MO2017 | IIT Bhu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta itemprop="image" content="images/logo1.gif">
+  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/mat_edit.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="images/logo1.gif" sizes="192x192">
+  <link rel="shortcut icon" type="image/png" href="images/logo1.gif" sizes="160x160">
+  <link rel="shortcut icon" type="image/png" href="images/logo1.gif" sizes="96x96">
+  <link rel="shortcut icon" type="image/png" href="images/logo1.gif" sizes="16x16">
+  <link rel="shortcut icon" type="image/png" href="images/logo1.gif" sizes="32x32">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="grey lighten-4">
+
+
+<nav class="blue-grey darken-4" role="navigation">
+  <div class="nav-wrapper ">
+    <a href="../../index.html"><img class="brand-logo1 left" id="logo" src="images/logo1.gif" width="80" height="80" alt="Worthy"></a>
+    <div class="site-name-and-slogan ">
+      <div class="site-name sign_header"><a href="../../index.html">MO2017</a></div>
+      <div class="site-slogan sign_header">&nbsp;&nbsp;Mathematics Society <a target="_blank" href="https://www.iitbhu.ac.in/"><span>IIT Bhu</span></a></div>
+    </div>
+  </div>
+</nav>
+
+  <div class="container">
+  <h1 class="sign_serif">Result</h1>
+  <div class="row">
+
+  <div class="valign-wrapper">
+
+    <form class="col s6" role="form" method="post" action="#" autocomplete="off">
+    <div class="card-panel">
+
+      <h3 class="sign_header center-align">Enter details for accessing result</h3>
+
+
+        <h6><span class'green-text'></span></h6>
+        <div class="row">
+          <div class="input-field col s11">
+            <i class="material-icons prefix">perm_identity</i>
+            <input id="roll" name="roll" type="text" class="validate tooltipped" required="" aria-required="true" data-position="bottom" data-delay="50" data-tooltip="Enter Roll Number(Refer to Roll Number on Admit Card)">
+            <label for="roll">Roll Number</label>
+          </div>
+        </div>
+
+        <!--<div class="row">
+          <div class="input-field col s11">
+            <i class="material-icons prefix">perm_identity</i>
+            <input id="user_name" name="user_name" type="text" class="validate tooltipped" data-position="bottom" data-delay="50" data-tooltip="Enter User-name">
+            <label for="email">Username</label>
+          </div>
+        </div> -->
+
+        <!--<div class="row">
+          <div class="input-field col s11">
+            <i class="material-icons prefix">today</i>
+            <input type="date" id="dob" name="dob" class="datepicker tooltipped" data-position="bottom" data-delay="50" data-tooltip="Enter date of birth" required="" aria-required="true">
+            <label for="dob">Date Of Birth</label>
+          </div>
+        </div>-->
+
+         <!--<div class="g-recaptcha" data-sitekey="6LewNhATAAAAAEevw7thKOpAmMdw-rgXAv7rNgKM"></div> <br>-->
+
+          <button class="btn primary" type="submit" name="submit" type="submit">Login</button>
+          
+        </div>
+      </form>
+      <form class="col s6">
+      <div class="card-panel">
+        <h3 class="sign_header center-align">Directions for viewing Results</h3>
+        <p>1. Login with your Roll Number as given on your admit card</p>
+        <p>2. Here it's O after M, not 0 (zero) </p>
+        <p>3. In case if you are not able to view your results, please contact us at Society.
+        <p>4. <b>No requests for disclosing marks shall be entertained</b>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+  <!-- jQuery is required by Materialize to function -->
+   <script type="text/javascript" src="../../../../../code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!--script src="pickadate/lib/picker.js"></script>
+  <script src="pickadate/lib/picker.date.js"></script-->
+  <script src="js/pickadate/Datepick.js"></script>
+  <script type="text/javascript">
+    //custom JS code
+
+    function checkPasswordMatch() {
+    var password = $("#txtNewPassword").val();
+    var confirmPassword = $("#txtConfirmPassword").val();
+
+    if (password != confirmPassword)
+        //$("#divCheckPasswordMatch").html("<div class='row'><h6><span class='red-text'>Passwords do not match</span></h6></div>");
+        document.getElementsById("cp")[0].setAttribute("data-error", "Error");
+    else
+        //$("#divCheckPasswordMatch").html("<div class='row'><h6><span class='green-text'>Passwords match</span></h6></div>");
+        document.getElementsById("cp")[0].setAttribute("data-success", "Right");
+}
+
+    $(document).ready(function () {
+        $("#txtConfirmPassword").keyup(checkPasswordMatch);
+    });
+
+  </script>
+
+  <script src='../../../../../www.google.com/recaptcha/api.js'></script>
