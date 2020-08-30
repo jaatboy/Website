@@ -1,2 +1,2 @@
 # Website
-Website of Society .
+Website of Mathematics and Computing Society .
